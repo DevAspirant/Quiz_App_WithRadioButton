@@ -28,7 +28,7 @@
         android:layout_alignStart="@+id/name"
         android:layout_below="@+id/name"
         android:layout_marginTop="21dp"
-        android:text=""
+        android:text="This Quiz will calculate  you answer and show it in the Final Result.10+ when you answer the question and 0 for Wrong answer"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -46,32 +46,25 @@
             android:id="@+id/option1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginStart="50dp"
             android:text="@string/option_1" />
 
         <RadioButton
             android:id="@+id/option2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="200dp"
-            android:layout_marginStart="200dp"
             android:text="@string/option_2" />
 
         <RadioButton
             android:id="@+id/option3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginStart="50dp"
+
             android:text="@string/option_3" />
 
         <RadioButton
             android:id="@+id/option4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="200dp"
-            android:layout_marginStart="200dp"
             android:text="@string/option_4" />
     </RadioGroup>
 
@@ -83,6 +76,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/optionGroup"
         android:layout_marginTop="20dp"
+        android:text=" "
         android:textSize="20sp" />
 
     <Button
@@ -103,6 +97,7 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/next"
         android:layout_marginTop="33dp"
+        android:text="@string/option_2"
         android:textSize="20sp"
         android:textStyle="bold" />
 </RelativeLayout>
