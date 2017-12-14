@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Quiz_App_WithRadioButton</string>
+    <string name="start">Start</string>
+    <string name="enter_your_name_please">Enter your name please</string>
+    <string name="option_1">option 1</string>
+    <string name="option_2">option 2</string>
+    <string name="option_3">option 3</string>
+    <string name="option_4">option 4</string>
 </resources>
